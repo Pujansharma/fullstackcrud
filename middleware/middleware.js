@@ -10,7 +10,7 @@ const authntication = (req,res,next) =>{
             }
         })
     } else{
-        res.send({ "mssg": "login first" ,"err":err})
+        res.send({ "mssg": "login first"})
     }
     // if(token)
 }
