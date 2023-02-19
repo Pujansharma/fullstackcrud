@@ -8,7 +8,7 @@ todosrouter.get("/",async(req,res)=>{
         const user=await totomodel.find(query);
         res.send(user)
     } catch (error) {
-        res.send(error.message)
+        res.send("error")
     }
     
 })
